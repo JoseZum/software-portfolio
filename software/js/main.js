@@ -6,8 +6,6 @@
 
   // DOM
   const langToggle = document.getElementById('langToggle');
-  const burger = document.getElementById('burger');
-  const mobileMenu = document.getElementById('mobileMenu');
   const projectsContainer = document.getElementById('projectsContainer');
   const marqueeWords = document.getElementById('marqueeWords');
   const marqueeWordsDup = document.getElementById('marqueeWordsDup');
@@ -18,8 +16,7 @@
     await loadTranslations();
     applyAll();
     setupLangToggle();
-    setupBurger();
-    duplicateTechTrain();  
+    duplicateTechTrain();
     setupScrollReveal();
     setupBlockReveal();
     setupSmoothScroll();
@@ -83,22 +80,6 @@
     });
   }
 
-  // Burger
-  function setupBurger() {
-    burger.addEventListener('click', () => {
-      burger.classList.toggle('active');
-      mobileMenu.classList.toggle('active');
-      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
-    });
-
-    mobileMenu.querySelectorAll('.mobile-menu-link').forEach(link => {
-      link.addEventListener('click', () => {
-        burger.classList.remove('active');
-        mobileMenu.classList.remove('active');
-        document.body.style.overflow = '';
-      });
-    });
-  }
 
   // ---- MARQUEE WORDS ----
   function renderMarquee(lang) {
