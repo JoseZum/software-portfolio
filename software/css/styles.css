@@ -1,8 +1,4 @@
-/* ============================================
-   OPTION 2 — VIBRANT BLOCK MAXIMALIST
-   Solid clashing blocks, thick borders,
-   snap hover effects, LOUD everything
-   ============================================ */
+
 
 :root {
   --black: #0a0a0a;
@@ -27,7 +23,7 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
-  /* 🔥 Firefox scrollbar */
+  
   scrollbar-width: thin;
   scrollbar-color: var(--lime) var(--black);
 }
@@ -39,9 +35,9 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  zoom: 0.9; 
 }
 
-/* 🔥 CUSTOM SCROLLBAR - Chrome/Edge/Safari */
 ::-webkit-scrollbar {
   width: 12px;
   height: 12px;
@@ -68,7 +64,6 @@ body {
   background: var(--magenta);
 }
 
-/* 🔥 Scrollbar para elementos específicos con scroll */
 .tech-train-section::-webkit-scrollbar-thumb,
 .marquee-section::-webkit-scrollbar-thumb {
   background: var(--teal);
@@ -137,7 +132,6 @@ nav {
   gap: 16px;
 }
 
-/* 🔥 LANGUAGE SWITCH TOGGLE */
 .lang-switch {
   position: relative;
   display: flex;
@@ -225,7 +219,6 @@ nav {
 .burger.active span:nth-child(2) { opacity: 0; }
 .burger.active span:nth-child(3) { transform: rotate(-45deg) translate(7px, -7px); }
 
-/* Mobile Menu */
 .mobile-menu {
   position: fixed;
   inset: 0;
@@ -276,7 +269,6 @@ nav {
   animation: slideInLeft 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
 }
 
-/* Diagonal stripe divider */
 .hero-stripe {
   position: absolute;
   top: 0;
@@ -402,7 +394,6 @@ nav {
   box-shadow: 6px 6px 0 var(--black);
 }
 
-/* Hero Right */
 .hero-right {
   background: var(--magenta);
   display: flex;
@@ -420,7 +411,6 @@ nav {
   animation: popBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s both;
 }
 
-/* Terminal in hero */
 .hero-terminal {
   background: var(--black);
   box-shadow: 20px 20px 0 rgba(0,0,0,0.4);
@@ -477,7 +467,6 @@ nav {
   50% { opacity: 0; }
 }
 
-/* Spinning badge */
 .hero-badge {
   position: absolute;
   top: -20px;
@@ -514,7 +503,7 @@ nav {
 .marquee-track {
   display: flex;
   animation: marquee 15s linear infinite;
-  width: max-content;  /* 🔥 CLAVE */
+  width: max-content;  
 }
 
 .marquee-content {
@@ -544,7 +533,7 @@ nav {
 
 @keyframes marquee {
   from { transform: translateX(0); }
-  to { transform: translateX(-100%); }  /* 🔥 Loop completo */
+  to { transform: translateX(-100%); }  
 }
 
 /* ==================== STRENGTH BLOCKS ==================== */
@@ -629,7 +618,6 @@ nav {
   position: relative;
 }
 
-/* 🔥 FADE LATERAL - Efecto "entra y sale" tipo Apple */
 .tech-train-section::before,
 .tech-train-section::after {
   content: '';
@@ -729,7 +717,6 @@ nav {
   z-index: 2;
 }
 
-/* 🔥 Colores alternativos para variedad visual */
 .tech-wagon:nth-child(3n+1):hover {
   border-color: var(--teal);
   box-shadow: 0 12px 30px rgba(0, 255, 204, 0.25),
@@ -770,7 +757,6 @@ nav {
   to { transform: translateX(-25%); }
 }
 
-/* Pause on hover */
 .tech-train-section:hover .tech-train-track {
   animation-play-state: paused;
 }
@@ -925,7 +911,6 @@ nav {
   border-color: var(--lime);
 }
 
-/* 🔥 FEATURED PROJECT CON SHOWCASE */
 .project-featured {
   grid-template-columns: auto 1fr 1fr;
   min-height: 70vh;
@@ -1046,7 +1031,6 @@ nav {
   height: 18px;
 }
 
-/* 🔥 LIVE DEMO BUTTON DESTACADO */
 .project-link-demo {
   background: var(--lime);
   color: var(--black);
@@ -1061,7 +1045,6 @@ nav {
   box-shadow: 6px 6px 0 var(--lime);
 }
 
-/* 🔥 PROJECT SHOWCASE (VISUAL PREVIEW) */
 .project-showcase {
   padding: 4rem 3rem 4rem 2rem;
   display: flex;
@@ -1093,7 +1076,6 @@ nav {
   background: rgba(204, 255, 0, 0.05);
   border-bottom: 2px solid rgba(204, 255, 0, 0.2);
 }
-
 
 .preview-dots {
   display: flex;
@@ -1345,7 +1327,6 @@ footer p {
   100% { transform: scale(1) rotate(0deg); }
 }
 
-/* Scroll Reveal */
 .reveal {
   opacity: 0;
   transform: translateY(60px);
@@ -1379,7 +1360,6 @@ footer p {
   transform: translateX(0);
 }
 
-/* Stagger delays */
 .stagger-1 { transition-delay: 0.1s; }
 .stagger-2 { transition-delay: 0.2s; }
 .stagger-3 { transition-delay: 0.3s; }
@@ -1496,17 +1476,17 @@ a:focus-visible, button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-snap-type: none; }
 
-  /* 🔥 En lugar de matar las animaciones, las hacemos MUY lentas */
+  
   .marquee-track,
   .tech-train-track {
-    animation-duration: 120s !important;  /* Súper lento pero visible */
+    animation-duration: 120s !important;  
   }
 
   .hero-badge {
     animation-duration: 60s !important;
   }
 
-  /* Otras animaciones de entrada/salida sí se reducen */
+  
   .hero-left, .hero-right, .hero-visual,
   .block, .feature-content, .feature-visual,
   .stat, .cta-title {
