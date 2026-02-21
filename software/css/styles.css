@@ -83,11 +83,11 @@ a { text-decoration: none; color: inherit; }
 
 /* ==================== NAV ==================== */
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 900;
   padding: 1.5rem 3rem;
   display: flex;
   justify-content: space-between;
@@ -130,6 +130,13 @@ nav {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.lang-switch-fixed {
+  position: fixed;
+  top: 1.5rem;
+  right: 3rem;
+  z-index: 1000;
 }
 
 .lang-switch {
@@ -1382,6 +1389,10 @@ footer p {
   .nav-links { display: none; }
   .burger { display: flex; }
 
+  .lang-switch-fixed {
+    right: 5rem;
+  }
+
   .project-color-bar { width: 80px; }
 
   .tech-wagon {
@@ -1397,6 +1408,11 @@ footer p {
 
 @media (max-width: 768px) {
   nav { padding: 1rem 1.5rem; }
+
+  .lang-switch-fixed {
+    top: 1rem;
+    right: 1.5rem;
+  }
 
   .lang-switch {
     width: 95px;

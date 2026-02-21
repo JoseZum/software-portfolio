@@ -13,7 +13,16 @@
 </head>
 <body>
 
-  <!-- NAV — mix-blend-mode: difference -->
+  <!-- LANG SWITCH (fixed) -->
+  <div class="lang-switch-fixed">
+    <div class="lang-switch" id="langToggle">
+      <span class="lang-option lang-en">EN</span>
+      <span class="lang-option lang-es">ES</span>
+      <div class="lang-slider"></div>
+    </div>
+  </div>
+
+  <!-- NAV (scrolls with page) -->
   <nav id="mainNav">
     <a href="#" class="logo">JF<span class="logo-accent">Z</span></a>
     <ul class="nav-links" id="navLinks">
@@ -23,11 +32,6 @@
       <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
     </ul>
     <div class="nav-right">
-      <div class="lang-switch" id="langToggle">
-        <span class="lang-option lang-en">EN</span>
-        <span class="lang-option lang-es">ES</span>
-        <div class="lang-slider"></div>
-      </div>
       <button class="burger" id="burger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
