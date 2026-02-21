@@ -43,8 +43,8 @@
   async function loadTranslations() {
     try {
       const [en, es] = await Promise.all([
-        fetch('data/en.json').then(r => r.json()),
-        fetch('data/es.json').then(r => r.json())
+        fetch('/software/data/en.json').then(r => r.json()),
+        fetch('/software/data/es.json').then(r => r.json())
       ]);
       translations = { en, es };
     } catch (e) {

@@ -49,7 +49,7 @@
         "description": "Diseñé un sistema distribuido full-stack con backend en capas usando FastAPI, pipelines automáticos de scraping y entrega de medios vía CDN. Implementé autenticación JWT + Google OAuth, CI/CD y despliegue en Render, Vercel, MongoDB Atlas y AWS.",
         "tags": ["FastAPI", "Scrapy", "CI/CD", "AWS CDN", "MongoDB", "React"],
         "liveDemo": "https://ufc-picks-frontend.vercel.app/",
-        "screenshot": "image.png",
+        "screenshot": "/software/image.png",
         "featured": true,
         "repos": [
           { "label": "Frontend", "url": "https://github.com/JoseZum/ufc-picks-frontend" },
