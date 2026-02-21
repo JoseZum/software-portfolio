@@ -65,7 +65,7 @@
         "description": "Construí una plataforma analítica bancaria con pipelines ETL, data warehouse en esquema estrella y microservicios de ML. Diseñé APIs escalables con Node.js + TypeScript y esquemas PostgreSQL optimizados para cargas analíticas.",
         "tags": ["ETL", "Data Warehouse", "Servicios ML", "PostgreSQL", "Node.js", "TypeScript"],
         "repos": [
-          { "label": "Repositorio", "url": "https://github.com/JoseZum" }
+          { "label": "Repositorio", "url": "https://github.com/JoseZum/bank-insight-engine" }
         ]
       },
       {
@@ -76,7 +76,7 @@
         "description": "Contribuí a una plataforma agri-fintech de impacto regenerativo. Implementé APIs REST, modelado en MongoDB y servicios centrales en un entorno de trabajo en equipo.",
         "tags": ["MongoDB", "REST API", "Node.js", "Fintech", "Trabajo en Equipo"],
         "repos": [
-          { "label": "Repositorio", "url": "https://github.com/JoseZum" }
+          { "label": "Repositorio", "url": "https://github.com/Morpho-Hub/MorphoChain" }
         ]
       }
     ]

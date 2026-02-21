@@ -3,8 +3,8 @@
 :root {
   --black: #0a0a0a;
   --white: #ffffff;
-  --lime: #CCFF00;
-  --magenta: #FF0055;
+  --lime: #FF3366;
+  --magenta: #00CFC1;
   --indigo: #4400FF;
   --teal: #00FFCC;
   --tangerine: #FF6633;
@@ -540,7 +540,7 @@ nav {
 
 @keyframes marquee {
   from { transform: translateX(0); }
-  to { transform: translateX(-100%); }  
+  to { transform: translateX(-50%); }
 }
 
 /* ==================== STRENGTH BLOCKS ==================== */
@@ -932,7 +932,7 @@ nav {
   overflow: hidden;
 }
 
-.project-row:nth-child(1) .project-color-bar { background: var(--magenta); }
+.project-row:nth-child(1) .project-color-bar { background: #D20A0A; }
 .project-row:nth-child(2) .project-color-bar { background: var(--teal); }
 .project-row:nth-child(3) .project-color-bar { background: var(--tangerine); }
 
@@ -943,6 +943,11 @@ nav {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   letter-spacing: 0.05em;
+}
+
+.project-row:nth-child(1) .project-number {
+  color: var(--white);
+  opacity: 1;
 }
 
 .project-row:nth-child(2) .project-number { color: var(--black); }
