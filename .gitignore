@@ -1,0 +1,11 @@
+.vercel
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+test-animation.html
+server.log

@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tag": "Software Engineer",
+    "name1": "José",
+    "name2": "Fabián",
+    "description": "I build production-ready systems, data pipelines, and full-stack platforms with a strong focus on architecture, scalability, and real-world DevOps."
+  },
+  "marqueeWords": ["Backend", "Systems", "Architecture", "DevOps", "Pipelines", "APIs", "Databases", "Cloud"],
+  "about": {
+    "tag": "Who I Am",
+    "title1": "I Design",
+    "titleHighlight": "Systems",
+    "title2": "From Scratch",
+    "p1": "Computer Engineering student at Tecnológico de Costa Rica focused on backend architecture, data systems, and production infrastructure.",
+    "p2": "My projects simulate real startup environments: distributed systems, scraping pipelines, ETL workflows, ML microservices, and cloud-native deployments.",
+    "stats": {
+      "s1value": "3+",
+      "s1label": "Production Systems",
+      "s2value": "15+",
+      "s2label": "Technologies",
+      "s3value": "∞",
+      "s3label": "Continuous Learning"
+    }
+  },
+  "blocks": {
+    "b1title": "Scalable Backend",
+    "b1desc": "Designing layered, maintainable server systems built for growth.",
+    "b2title": "Data Pipelines",
+    "b2desc": "Automated workflows from scraping to ETL to transformation.",
+    "b3title": "API & Auth",
+    "b3desc": "Secure APIs with JWT, OAuth 2.0, and role-based access.",
+    "b4title": "DevOps & Cloud",
+    "b4desc": "Docker, GitHub Actions, AWS, Render, and CI/CD automation."
+  },
+  "projects": {
+    "tag": "Engineering That Ships",
+    "items": [
+      {
+        "id": "ufc-picks",
+        "number": "01",
+        "title": "UFC Picks Platform",
+        "subtitle": "Full-Stack MMA Prediction System",
+        "description": "Designed a distributed full-stack system with a layered FastAPI backend, automated scraping pipelines, and cloud media delivery. Built JWT + Google OAuth authentication, CI/CD pipelines, and deployed across Render, Vercel, MongoDB Atlas, and AWS CDN.",
+        "tags": ["FastAPI", "Scrapy", "CI/CD", "AWS CDN", "MongoDB", "React"],
+        "liveDemo": "https://ufc-picks-frontend.vercel.app/",
+        "screenshot": "image.png",
+        "featured": true,
+        "repos": [
+          { "label": "Frontend", "url": "https://github.com/JoseZum/ufc-picks-frontend" },
+          { "label": "Backend", "url": "https://github.com/JoseZum/ufc-picks-backend" },
+          { "label": "Scraper", "url": "https://github.com/JoseZum/ufc-picks-scraper" }
+        ]
+      },
+      {
+        "id": "bank-insight",
+        "number": "02",
+        "title": "Bank Insight Engine",
+        "subtitle": "Bank Marketing Analytics Platform",
+        "description": "Built a data-driven banking analytics system with ETL pipelines, a star-schema data warehouse, and ML microservices. Designed scalable APIs with Node.js + TypeScript and optimized PostgreSQL schemas for analytical workloads.",
+        "tags": ["ETL", "Data Warehouse", "ML Services", "PostgreSQL", "Node.js", "TypeScript"],
+        "repos": [
+          { "label": "Repository", "url": "https://github.com/JoseZum" }
+        ]
+      },
+      {
+        "id": "morphochain",
+        "number": "03",
+        "title": "MorphoChain",
+        "subtitle": "Agri-Fintech Proof of Concept",
+        "description": "Contributed to a tokenized regenerative finance platform connecting producers and investors. Implemented REST APIs, MongoDB data modeling, and core platform services in a team environment.",
+        "tags": ["MongoDB", "REST API", "Node.js", "Fintech", "Team Project"],
+        "repos": [
+          { "label": "Repository", "url": "https://github.com/JoseZum" }
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "tag": "I Also Write",
+    "title1": "Technical",
+    "titleHighlight": "Articles",
+    "title2": "& Guides",
+    "description": "I write technical articles explaining backend systems, APIs, and software architecture for Spanish-speaking developers.",
+    "cta": "Read Articles"
+  },
+  "contact": {
+    "title1": "Let's",
+    "title2": "Build",
+    "title3": "Something",
+    "description": "I'm open to software engineering roles, internships, and exciting projects. Let's connect.",
+    "email": "Email Me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "name": "JF Zumbado",
+    "copy": "Bold by engineering."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "work": "Proyectos",
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tag": "Ingeniero de Software",
+    "name1": "José",
+    "name2": "Fabián",
+    "description": "Construyo sistemas listos para producción, pipelines de datos y plataformas full-stack con enfoque en arquitectura, escalabilidad y DevOps real."
+  },
+  "marqueeWords": ["Backend", "Sistemas", "Arquitectura", "DevOps", "Pipelines", "APIs", "Bases de Datos", "Cloud"],
+  "about": {
+    "tag": "Quién Soy",
+    "title1": "Diseño",
+    "titleHighlight": "Sistemas",
+    "title2": "Desde Cero",
+    "p1": "Estudiante de Ingeniería en Computación en el Tecnológico de Costa Rica, enfocado en arquitectura backend, sistemas de datos e infraestructura de producción.",
+    "p2": "Mis proyectos simulan entornos reales de startups: sistemas distribuidos, scraping pipelines, ETL, microservicios de ML y despliegues cloud-native.",
+    "stats": {
+      "s1value": "3+",
+      "s1label": "Sistemas en Producción",
+      "s2value": "15+",
+      "s2label": "Tecnologías",
+      "s3value": "∞",
+      "s3label": "Aprendizaje Continuo"
+    }
+  },
+  "blocks": {
+    "b1title": "Backend Escalable",
+    "b1desc": "Diseño de sistemas servidor en capas, mantenibles y construidos para crecer.",
+    "b2title": "Pipelines de Datos",
+    "b2desc": "Flujos automatizados de scraping a ETL y transformación.",
+    "b3title": "APIs & Auth",
+    "b3desc": "APIs seguras con JWT, OAuth 2.0 y control de acceso por roles.",
+    "b4title": "DevOps & Cloud",
+    "b4desc": "Docker, GitHub Actions, AWS, Render y automatización CI/CD."
+  },
+  "projects": {
+    "tag": "Ingeniería Que Se Entrega",
+    "items": [
+      {
+        "id": "ufc-picks",
+        "number": "01",
+        "title": "UFC Picks Platform",
+        "subtitle": "Sistema Full-Stack de Predicciones MMA",
+        "description": "Diseñé un sistema distribuido full-stack con backend en capas usando FastAPI, pipelines automáticos de scraping y entrega de medios vía CDN. Implementé autenticación JWT + Google OAuth, CI/CD y despliegue en Render, Vercel, MongoDB Atlas y AWS.",
+        "tags": ["FastAPI", "Scrapy", "CI/CD", "AWS CDN", "MongoDB", "React"],
+        "liveDemo": "https://ufc-picks-frontend.vercel.app/",
+        "screenshot": "image.png",
+        "featured": true,
+        "repos": [
+          { "label": "Frontend", "url": "https://github.com/JoseZum/ufc-picks-frontend" },
+          { "label": "Backend", "url": "https://github.com/JoseZum/ufc-picks-backend" },
+          { "label": "Scraper", "url": "https://github.com/JoseZum/ufc-picks-scraper" }
+        ]
+      },
+      {
+        "id": "bank-insight",
+        "number": "02",
+        "title": "Bank Insight Engine",
+        "subtitle": "Plataforma Analítica de Marketing Bancario",
+        "description": "Construí una plataforma analítica bancaria con pipelines ETL, data warehouse en esquema estrella y microservicios de ML. Diseñé APIs escalables con Node.js + TypeScript y esquemas PostgreSQL optimizados para cargas analíticas.",
+        "tags": ["ETL", "Data Warehouse", "Servicios ML", "PostgreSQL", "Node.js", "TypeScript"],
+        "repos": [
+          { "label": "Repositorio", "url": "https://github.com/JoseZum" }
+        ]
+      },
+      {
+        "id": "morphochain",
+        "number": "03",
+        "title": "MorphoChain",
+        "subtitle": "Prueba de Concepto Agri-Fintech",
+        "description": "Contribuí a una plataforma agri-fintech de impacto regenerativo. Implementé APIs REST, modelado en MongoDB y servicios centrales en un entorno de trabajo en equipo.",
+        "tags": ["MongoDB", "REST API", "Node.js", "Fintech", "Trabajo en Equipo"],
+        "repos": [
+          { "label": "Repositorio", "url": "https://github.com/JoseZum" }
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "tag": "También Escribo",
+    "title1": "Artículos",
+    "titleHighlight": "Técnicos",
+    "title2": "& Guías",
+    "description": "Escribo artículos técnicos explicando sistemas backend, APIs y arquitectura de software para desarrolladores de habla hispana.",
+    "cta": "Leer Artículos"
+  },
+  "contact": {
+    "title1": "Construyamos",
+    "title2": "Algo",
+    "title3": "Juntos",
+    "description": "Estoy abierto a roles de ingeniería de software, pasantías y proyectos emocionantes. Conectemos.",
+    "email": "Enviar Correo",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "name": "JF Zumbado",
+    "copy": "Bold por ingeniería."
+  }
+}
